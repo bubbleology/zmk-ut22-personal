@@ -23,10 +23,10 @@
 			bindings = <
 			&kp R &kp S &kp N &kp I   
 			&kp A &kp O &kp T &kp E
-			&kp Z       &kp RALT &kp SPACE    
+			&kp Z       &kp RALT &kp SPACE 
 			&kp R &kp S &kp N &kp I
             &kp A &kp O &kp T &kp E
-            &kp Z       &kp RALT &kp SPACE        
+            &kp Z       &kp RALT &kp SPACE   
 			>;
 		};
 
@@ -36,7 +36,7 @@
 			bindings = <
 			&BT_SEL 0 &BT_SEL 1 &BT_SEL 2 &BT_SEL 3   
 			&none &none &none &BT_CLR
-			&bootloader &none &none   
+			&none       &none &none   
 			&none &none &none &none
             &none &none &none &none
             &none       &none &none        
