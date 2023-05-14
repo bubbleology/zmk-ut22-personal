@@ -21,12 +21,9 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp R &kp S &kp N &kp I   
-			&kp A &kp O &kp T &kp E
-			&kp Z       &kp RALT &kp SPACE 
-			&kp R &kp S &kp N &kp I
-            &kp A &kp O &kp T &kp E
-            &kp Z       &kp RALT &kp SPACE   
+			&kp R       &kp S       &kp N       &kp I          &kp I       &kp N       &kp S       &kp R
+			&kp A       &kp O       &kp T       &kp E          &kp E       &kp T       &kp O       &kp A
+			&kp Z                   &kp RALT    &kp SPACE      &kp SPACE   &kp RALT                &kp Z
 			>;
 		};
 
@@ -34,12 +31,9 @@
 		ble_layer {
 			label = "BLE";
 			bindings = <
-			&none &none &none &none  
-			&none &none &none &none
-			&none       &none &none   
-			&none &none &none &none
-            &none &none &none &none
-            &none       &none &none        
+			&kp R       &kp S       &kp N       &kp I          &kp I       &kp N       &kp S       &kp R
+			&kp A       &kp O       &kp T       &kp E          &kp E       &kp T       &kp O       &kp A
+			&kp Z                   &kp RALT    &kp SPACE      &kp SPACE   &kp RALT                &kp Z     
 			>;
 		};
     };
