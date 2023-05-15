@@ -32,30 +32,30 @@
 // {Top,Bottom}{Left,Right}{Index,Middle,Ring,Pinky}
 
 // LEFT SIDE
-#define TLI 3
-#define TLM 2
-#define TLR 1
-#define TLP 0
-#define BLI 11
-#define BLM 10
-#define BLR 9
-#define BLP 8
-#define LOT 18
-#define LIT 17
-#define LOP 16
+#define TLI 3 // TOP
+#define TLM 2 // TOP
+#define TLR 1 // TOP
+#define TLP 0 // TOP
+#define BLI 11 // BOTTOM
+#define BLM 10 // BOTTOM
+#define BLR 9 // BOTTOM
+#define BLP 8 // BOTTOM
+#define LOT 18 // O-THUMB
+#define LIT 17 // I-THUMB
+#define LOP 16 // PINKY
 
 // RIGHT SIDE
-#define TRI 4
-#define TRM 5
-#define TRR 6
-#define TRP 7
-#define BRI 12
-#define BRM 13
-#define BRR 14
-#define BRP 15
-#define ROT 19
-#define RIT 20
-#define ROP 21
+#define TRI 4 // TOP
+#define TRM 5 // TOP
+#define TRR 6 // TOP
+#define TRP 7 // TOP
+#define BRI 12 // BOTTOM
+#define BRM 13 // BOTTOM
+#define BRR 14 // BOTTOM
+#define BRP 15 // BOTTOM
+#define ROT 19 // O-THUMB
+#define RIT 20 // I-THUMB
+#define ROP 21 // PINKY
 
 // BEHAVIOR
 // ====================================================
