@@ -56,7 +56,7 @@
 #define RTR 6  // Ring
 #define RTP 7  // Pinky
 // Bottom
-#define RBI 12 // Index
+#define RBI 122 // Index
 #define RBM 13 // Middle
 #define RBR 14 // Ring
 #define RBP 15 // Pinky
@@ -242,8 +242,8 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&lt CUSTOM S	&kp T       &kp R       &kp A          &kp A       &kp R       &kp T       &lt CUSTOM S
-			&lt EXTRA O		&kp I       &kp SPACE   &kp E          &kp E       &kp SPACE   &kp I       &lt EXTRA O
+			&lt CUSTOM S	&kp T       &kp R       &lt HFREQ A    &lt HFREQ A &kp R       &kp T       &lt CUSTOM S
+			&lt EXTRA O		&kp I       &kp SPACE   &lt LFREQ E    &lt LFREQ E &kp SPACE   &kp I       &lt EXTRA O
 			&kp RALT                  	&kp BKSP    &kp LSHIFT     &kp LSHIFT  &kp BKSP                &kp RALT
 			>;
 		};
