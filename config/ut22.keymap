@@ -106,123 +106,123 @@
 		/***************
 		* 2 key combos
 		****************/
-		COMBO(1,&kp ENTER,LTI LBI,0 1 2 3 4 5 6)		// ENTER
-		COMBO(2,&sk LCTRL,LBI LTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
-		COMBO(3,&sk LGUI,LBM LTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
-		COMBO(4,&sk RALT,LBR LTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
-		COMBO(5,&kp BACKSPACE,LBI LTM, 0 1 2 3 4 5 6)		// BACKSPACE
-		COMBO(6,&kp DELETE,LBR LTM, 0 1 2 3 4 5 6)		// DELETE
-		COMBO(7,&kt LSHFT,LBM LTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
+		COMBO(L1,&kp ENTER,LTI LBI,0 1 2 3 4 5 6)		// ENTER
+		COMBO(L2,&sk LCTRL,LBI LTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
+		COMBO(L3,&sk LGUI,LBM LTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
+		COMBO(L4,&sk RALT,LBR LTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
+		COMBO(L5,&kp BACKSPACE,LBI LTM, 0 1 2 3 4 5 6)		// BACKSPACE
+		COMBO(L6,&kp DELETE,LBR LTM, 0 1 2 3 4 5 6)		// DELETE
+		COMBO(L7,&kt LSHFT,LBM LTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
 
-		COMBO(8,&kp B,LBI LBP, 0)				// B
-		COMBO(9,&kp C,LBI LBM, 0)				// C
-		COMBO(10,&kp N,LBP LBR, 0)				// N
-		COMBO(11,&kp F,LTM LTI, 0)				// F
-		COMBO(12,&kp G,LTR LTM, 0)				// G
-		COMBO(13,&kp U,LBR LBM, 0)				// U
-		COMBO(14,&kp H,LBI LBR, 0)				// H
-		COMBO(15,&kp V,LTP LTM, 0)				// V
-		COMBO(16,&kp J,LTP LTR, 0)				// J
-		COMBO(17,&kp W,LTP LTI, 0)				// W
-		COMBO(18,&kp K,LBP LBM, 0)				// K
+		COMBO(L8,&kp B,LBI LBP, 0)				// B
+		COMBO(L9,&kp C,LBI LBM, 0)				// C
+		COMBO(L10,&kp N,LBP LBR, 0)				// N
+		COMBO(L11,&kp F,LTM LTI, 0)				// F
+		COMBO(L12,&kp G,LTR LTM, 0)				// G
+		COMBO(L13,&kp U,LBR LBM, 0)				// U
+		COMBO(L14,&kp H,LBI LBR, 0)				// H
+		COMBO(L15,&kp V,LTP LTM, 0)				// V
+		COMBO(L16,&kp J,LTP LTR, 0)				// J
+		COMBO(L17,&kp W,LTP LTI, 0)				// W
+		COMBO(L18,&kp K,LBP LBM, 0)				// K
 
-		COMBO(19,&kp PERIOD,LBM LTI, 0 1)			// PERIOD
-		COMBO(20,&kp COMMA,LBR LTI, 0 1)			// COMMA
-		COMBO(21,&kp SLASH,LBP LTI, 0 1)			// SLASH
-		COMBO(22,&kp EXCL,LTR LBR, 0 1)				// EXCLAMATION
+		COMBO(L19,&kp PERIOD,LBM LTI, 0 1)			// PERIOD
+		COMBO(L20,&kp COMMA,LBR LTI, 0 1)			// COMMA
+		COMBO(L21,&kp SLASH,LBP LTI, 0 1)			// SLASH
+		COMBO(L22,&kp EXCL,LTR LBR, 0 1)				// EXCLAMATION
 
-		COMBO(23,&kp N7,LTR LTM, 1)				// 7
-		COMBO(24,&kp N8,LTM LTI, 1)				// 8
-		COMBO(25,&kp N9,LBR LBM, 1)				// 9
-		COMBO(26,&kp N0,LBM LBI, 1)				// 0
+		COMBO(L23,&kp N7,LTR LTM, 1)				// 7
+		COMBO(L24,&kp N8,LTM LTI, 1)				// 8
+		COMBO(L25,&kp N9,LBR LBM, 1)				// 9
+		COMBO(L26,&kp N0,LBM LBI, 1)				// 0
 
 		/***************
 		* 3 key combos
 		****************/
-		COMBO(27,&kp ESC,LTI LTM LBP,0 1 2 3 4 5 6)			// ESC
-		COMBO(28,&to NAVIGATION,LBR LTM LBI,0 1 2 3 4 5 6)		// LAYER: NAVIGATION >to
-		COMBO(29,&kp CAPS,LBP LTR LBM,0 1 2 3 4 5 6)			// CAPS
+		COMBO(L27,&kp ESC,LTI LTM LBP,0 1 2 3 4 5 6)			// ESC
+		COMBO(L28,&to NAVIGATION,LBR LTM LBI,0 1 2 3 4 5 6)		// LAYER: NAVIGATION >to
+		COMBO(L29,&kp CAPS,LBP LTR LBM,0 1 2 3 4 5 6)			// CAPS
 
-		COMBO(30,&kp M,LBP LBR LBM,0)
-		COMBO(31,&kp D,LTR LTM LTI,0)
-		COMBO(32,&kp P,LBP LBR LBI,0)
-		COMBO(33,&kp Q,LTP LTR LTI,0)
-		COMBO(34,&kp X,LTP LTR LTM,0)
-		COMBO(35,&kp L,LBR LBM LBI,0)
-		COMBO(36,&kp SQT,LBR LBM LTI,0)
+		COMBO(L30,&kp M,LBP LBR LBM,0)
+		COMBO(L31,&kp D,LTR LTM LTI,0)
+		COMBO(L32,&kp P,LBP LBR LBI,0)
+		COMBO(L33,&kp Q,LTP LTR LTI,0)
+		COMBO(L34,&kp X,LTP LTR LTM,0)
+		COMBO(L35,&kp L,LBR LBM LBI,0)
+		COMBO(L36,&kp SQT,LBR LBM LTI,0)
 
 		/***************
 		* 4 key combos
 		****************/
-		COMBO(37,&kp Y,LBP LBR LBM LBI,0)				// Y
-		COMBO(38,&kp Z,LTP LTR LTM LTI,0)				// Z
+		COMBO(L37,&kp Y,LBP LBR LBM LBI,0)				// Y
+		COMBO(L38,&kp Z,LTP LTR LTM LTI,0)				// Z
 
-		COMBO(39,&kp TAB,LBP LTR LTM LTI,0 1 2 3 4 5 6)			// TAB
-		COMBO(40,&to BASE,LTP LTR LTM LBI,0 1 2 3 4 5 6)		// LAYER: BASE >to
-		COMBO(41,&tog BLE,LTP LBP LTI LBI,0 1 2 3 4 5 6)		// LAYER: BLUETOOTH #toggle
-		COMBO(42,&to NUMBERS,LTR LTM LBR LBM,0 1 2 3 4 5 6)		// LAYER: NUMBERS >to
-		COMBO(43,&to BASE,LTP LTR LBP LBR,0 1 2 3 4 5 6)		// LAYER: BASE (Fallback) >to
+		COMBO(L39,&kp TAB,LBP LTR LTM LTI,0 1 2 3 4 5 6)			// TAB
+		COMBO(L40,&to BASE,LTP LTR LTM LBI,0 1 2 3 4 5 6)		// LAYER: BASE >to
+		COMBO(L41,&tog BLE,LTP LBP LTI LBI,0 1 2 3 4 5 6)		// LAYER: BLUETOOTH #toggle
+		COMBO(L42,&to NUMBERS,LTR LTM LBR LBM,0 1 2 3 4 5 6)		// LAYER: NUMBERS >to
+		COMBO(L43,&to BASE,LTP LTR LBP LBR,0 1 2 3 4 5 6)		// LAYER: BASE (Fallback) >to
 
 		// RIGHT SIDE
 		/***************
 		* 2 key combos
 		****************/
-		COMBO(1,&kp ENTER,RTI RBI,0 1 2 3 4 5 6)		// ENTER
-		COMBO(2,&sk LCTRL,RBI RTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
-		COMBO(3,&sk LGUI,RBM RTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
-		COMBO(4,&sk RALT,RBR RTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
-		COMBO(5,&kp BACKSPACE,RBI RTM, 0 1 2 3 4 5 6)		// BACKSPACE
-		COMBO(6,&kp DELETE,RBR RTM, 0 1 2 3 4 5 6)		// DELETE
-		COMBO(7,&kt LSHFT,RBM RTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
+		COMBO(R1,&kp ENTER,RTI RBI,0 1 2 3 4 5 6)		// ENTER
+		COMBO(R2,&sk LCTRL,RBI RTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
+		COMBO(R3,&sk LGUI,RBM RTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
+		COMBO(R4,&sk RALT,RBR RTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
+		COMBO(R5,&kp BACKSPACE,RBI RTM, 0 1 2 3 4 5 6)		// BACKSPACE
+		COMBO(R6,&kp DELETE,RBR RTM, 0 1 2 3 4 5 6)		// DELETE
+		COMBO(R7,&kt LSHFT,RBM RTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
 
-		COMBO(8,&kp B,RBI RBP, 0)				// B
-		COMBO(9,&kp C,RBI RBM, 0)				// C
-		COMBO(10,&kp N,RBP RBR, 0)				// N
-		COMBO(11,&kp F,RTM RTI, 0)				// F
-		COMBO(12,&kp G,RTR RTM, 0)				// G
-		COMBO(13,&kp U,RBR RBM, 0)				// U
-		COMBO(14,&kp H,RBI RBR, 0)				// H
-		COMBO(15,&kp V,RTP RTM, 0)				// V
-		COMBO(16,&kp J,RTP RTR, 0)				// J
-		COMBO(17,&kp W,RTP RTI, 0)				// W
-		COMBO(18,&kp K,RBP RBM, 0)				// K
+		COMBO(R8,&kp B,RBI RBP, 0)				// B
+		COMBO(R9,&kp C,RBI RBM, 0)				// C
+		COMBO(R10,&kp N,RBP RBR, 0)				// N
+		COMBO(R11,&kp F,RTM RTI, 0)				// F
+		COMBO(R12,&kp G,RTR RTM, 0)				// G
+		COMBO(R13,&kp U,RBR RBM, 0)				// U
+		COMBO(R14,&kp H,RBI RBR, 0)				// H
+		COMBO(R15,&kp V,RTP RTM, 0)				// V
+		COMBO(R16,&kp J,RTP RTR, 0)				// J
+		COMBO(R17,&kp W,RTP RTI, 0)				// W
+		COMBO(R18,&kp K,RBP RBM, 0)				// K
 
-		COMBO(19,&kp PERIOD,RBM RTI, 0 1)			// PERIOD
-		COMBO(20,&kp COMMA,RBR RTI, 0 1)			// COMMA
-		COMBO(21,&kp SLASH,RBP RTI, 0 1)			// SLASH
-		COMBO(22,&kp EXCL,RTR RBR, 0 1)				// EXCLAMATION
+		COMBO(R19,&kp PERIOD,RBM RTI, 0 1)			// PERIOD
+		COMBO(R20,&kp COMMA,RBR RTI, 0 1)			// COMMA
+		COMBO(R21,&kp SLASH,RBP RTI, 0 1)			// SLASH
+		COMBO(R22,&kp EXCL,RTR RBR, 0 1)				// EXCLAMATION
 
-		COMBO(23,&kp N7,RTR RTM, 1)				// 7
-		COMBO(24,&kp N8,RTM RTI, 1)				// 8
-		COMBO(25,&kp N9,RBR RBM, 1)				// 9
-		COMBO(26,&kp N0,RBM RBI, 1)				// 0
+		COMBO(R23,&kp N7,RTR RTM, 1)				// 7
+		COMBO(R24,&kp N8,RTM RTI, 1)				// 8
+		COMBO(R25,&kp N9,RBR RBM, 1)				// 9
+		COMBO(R26,&kp N0,RBM RBI, 1)				// 0
 
 		/***************
 		* 3 key combos
 		****************/
-		COMBO(27,&kp ESC,RTI RTM RBP,0 1 2 3 4 5 6)			// ESC
-		COMBO(28,&to NAVIGATION,RBR RTM RBI,0 1 2 3 4 5 6)		// LAYER: NAVIGATION >to
-		COMBO(29,&kp CAPS,RBP RTR RBM,0 1 2 3 4 5 6)			// CAPS
+		COMBO(R27,&kp ESC,RTI RTM RBP,0 1 2 3 4 5 6)			// ESC
+		COMBO(R28,&to NAVIGATION,RBR RTM RBI,0 1 2 3 4 5 6)		// LAYER: NAVIGATION >to
+		COMBO(R29,&kp CAPS,RBP RTR RBM,0 1 2 3 4 5 6)			// CAPS
 
-		COMBO(30,&kp M,RBP RBR RBM,0)
-		COMBO(31,&kp D,RTR RTM RTI,0)
-		COMBO(32,&kp P,RBP RBR RBI,0)
-		COMBO(33,&kp Q,RTP RTR RTI,0)
-		COMBO(34,&kp X,RTP RTR RTM,0)
-		COMBO(35,&kp L,RBR RBM RBI,0)
-		COMBO(36,&kp SQT,RBR RBM RTI,0)
+		COMBO(R0,&kp M,RBP RBR RBM,0)
+		COMBO(R31,&kp D,RTR RTM RTI,0)
+		COMBO(R32,&kp P,RBP RBR RBI,0)
+		COMBO(R33,&kp Q,RTP RTR RTI,0)
+		COMBO(R34,&kp X,RTP RTR RTM,0)
+		COMBO(R35,&kp L,RBR RBM RBI,0)
+		COMBO(R36,&kp SQT,RBR RBM RTI,0)
 
 		/***************
 		* 4 key combos
 		****************/
-		COMBO(37,&kp Y,RBP RBR RBM RBI,0)				// Y
-		COMBO(38,&kp Z,RTP RTR RTM RTI,0)				// Z
+		COMBO(R37,&kp Y,RBP RBR RBM RBI,0)				// Y
+		COMBO(R38,&kp Z,RTP RTR RTM RTI,0)				// Z
 
-		COMBO(39,&kp TAB,RBP RTR RTM RTI,0 1 2 3 4 5 6)			// TAB
-		COMBO(40,&to BASE,RTP RTR RTM RBI,0 1 2 3 4 5 6)		// LAYER: BASE >to
-		COMBO(41,&tog BLE,RTP RBP RTI RBI,0 1 2 3 4 5 6)		// LAYER: BLUETOOTH #toggle
-		COMBO(42,&to NUMBERS,RTR RTM RBR RBM,0 1 2 3 4 5 6)		// LAYER: NUMBERS >to
-		COMBO(43,&to BASE,RTP RTR RBP RBR,0 1 2 3 4 5 6)		// LAYER: BASE (Fallback) >to
+		COMBO(R39,&kp TAB,RBP RTR RTM RTI,0 1 2 3 4 5 6)			// TAB
+		COMBO(R40,&to BASE,RTP RTR RTM RBI,0 1 2 3 4 5 6)		// LAYER: BASE >to
+		COMBO(R41,&tog BLE,RTP RBP RTI RBI,0 1 2 3 4 5 6)		// LAYER: BLUETOOTH #toggle
+		COMBO(R42,&to NUMBERS,RTR RTM RBR RBM,0 1 2 3 4 5 6)		// LAYER: NUMBERS >to
+		COMBO(R43,&to BASE,RTP RTR RBP RBR,0 1 2 3 4 5 6)		// LAYER: BASE (Fallback) >to
    };
 
 // KEYMAP
