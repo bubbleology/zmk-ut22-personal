@@ -51,15 +51,15 @@
 
 // RIGHT SIDE
 // Top
-#define RTI 7  // Index
-#define RTM 6  // Middle
-#define RTR 5  // Ring
-#define RTP 4  // Pinky
+#define RTI 4  // Index
+#define RTM 5  // Middle
+#define RTR 6  // Ring
+#define RTP 7  // Pinky
 // Bottom
-#define RBI 15 // Index
-#define RBM 14 // Middle
-#define RBR 13 // Ring
-#define RBP 12 // Pinky
+#define RBI 12 // Index
+#define RBM 13 // Middle
+#define RBR 14 // Ring
+#define RBP 15 // Pinky
 
 // BEHAVIOR
 // ====================================================
