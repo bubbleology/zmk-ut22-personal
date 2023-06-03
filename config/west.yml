@@ -2,7 +2,7 @@ manifest:
   remotes:
     # zmk official
     - name: zmkfirmware
-      url-base: https://github.com/Nicell/zmk.git
+      url-base: https://github.com/Nicell/zmk/tree/nice-view-custom-screen
   projects:
     - name: zmk
       remote: zmkfirmware
