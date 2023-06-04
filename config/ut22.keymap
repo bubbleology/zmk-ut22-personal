@@ -56,7 +56,7 @@
 #define RTR 6  // Ring
 #define RTP 7  // Pinky
 // Bottom
-#define RBI 122 // Index
+#define RBI 12 // Index
 #define RBM 13 // Middle
 #define RBR 14 // Ring
 #define RBP 15 // Pinky
