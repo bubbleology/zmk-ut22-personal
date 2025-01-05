@@ -244,7 +244,7 @@
 			bindings = <
 			&lt CUSTOM S	&kp T       &kp R       &lt HFREQ A    &lt HFREQ A &kp R      	&kp T       &lt CUSTOM S
 			&lt EXTRA O	&kp I       &kp N	&lt LFREQ E    &lt LFREQ E &kp N  	&kp I       &lt EXTRA O
-			&kp BACKSPACE               &kp CTRL    &kp SPACE      &kp LSHIFT  &kp RALT		    &kp BACKSPACE
+			&kp BACKSPACE               &kp LCTRL   &kp SPACE      &kp LSHIFT  &kp RALT		    &kp BACKSPACE
 			>;
 		};
 
