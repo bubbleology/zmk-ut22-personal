@@ -110,7 +110,7 @@
 		COMBO(L2,&sk LCTRL,LBI LTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
 		COMBO(L3,&sk LGUI,LBM LTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
 		COMBO(L4,&sk RALT,LBR LTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
-		COMBO(L5,&kp RALT,LBI LTM, 0 1 2 3 4 5 6)		// ** from BACKSPACE to RALT
+		COMBO(L5,&sk RALT,LBI LTM, 0 1 2 3 4 5 6)		// ** from BACKSPACE to RALT
 		COMBO(L6,&kp DELETE,LBR LTM, 0 1 2 3 4 5 6)		// DELETE
 		COMBO(L7,&kt LSHFT,LBM LTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
 
