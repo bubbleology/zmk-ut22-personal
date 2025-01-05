@@ -116,7 +116,7 @@
 
 		COMBO(L8,&kp B,LBI LBP, 0)				// B
 		COMBO(L9,&kp C,LBI LBM, 0)				// C
-		COMBO(L10,&kp BACKSPACE,LBP LBR, 0)			// ** from N to BACKSPACE
+		COMBO(L10,&kp SPACE,LBP LBR, 0)				// ** from N to SPACE
 		COMBO(L11,&kp F,LTM LTI, 0)				// F
 		COMBO(L12,&kp G,LTR LTM, 0)				// G
 		COMBO(L13,&kp U,LBR LBM, 0)				// U
@@ -171,7 +171,7 @@
 		COMBO(R2,&sk LCTRL,RBI RTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
 		COMBO(R3,&sk LGUI,RBM RTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
 		COMBO(R4,&sk RALT,RBR RTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
-		COMBO(R5,&kp BACKSPACE,RBI RTM, 0 1 2 3 4 5 6)		// BACKSPACE
+		COMBO(R5,&kp SPACE,RBI RTM, 0 1 2 3 4 5 6)		// ** BACKSPACE to SPACE
 		COMBO(R6,&kp DELETE,RBR RTM, 0 1 2 3 4 5 6)		// DELETE
 		COMBO(R7,&kt LSHFT,RBM RTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
 
@@ -244,7 +244,7 @@
 			bindings = <
 			&lt CUSTOM S	&kp T       &kp R       &lt HFREQ A    &lt HFREQ A &kp R      	&kp T       &lt CUSTOM S
 			&lt EXTRA O	&kp I       &kp N	&lt LFREQ E    &lt LFREQ E &kp N  	&kp I       &lt EXTRA O
-			&kp BKSP                    &kp LSHIFT  &kp SPACE      &kp SPACE   &kp LSHIFT   &kp BKSP
+			&kp RALT                    &kp BKSP    &kp LSHIFT     &kp LSHIFT  &kp BKSP		    &kp RALT
 			>;
 		};
 
