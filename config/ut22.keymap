@@ -17,7 +17,7 @@
 #define LFREQ 		4
 #define CUSTOM 		5
 #define EXTRA		6
-#define BLE			7
+#define BLE		7
 
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
@@ -110,13 +110,13 @@
 		COMBO(L2,&sk LCTRL,LBI LTP, 0 1 2 3 4 5 6)		// LCTRL *oneshot
 		COMBO(L3,&sk LGUI,LBM LTP, 0 1 2 3 4 5 6)		// LGUI  *oneshot
 		COMBO(L4,&sk RALT,LBR LTP, 0 1 2 3 4 5 6)		// RALT  *oneshot
-		COMBO(L5,&kp BACKSPACE,LBI LTM, 0 1 2 3 4 5 6)		// BACKSPACE
+		COMBO(L5,&kp RALT,LBI LTM, 0 1 2 3 4 5 6)		// ** from BACKSPACE to RALT
 		COMBO(L6,&kp DELETE,LBR LTM, 0 1 2 3 4 5 6)		// DELETE
 		COMBO(L7,&kt LSHFT,LBM LTM, 0 1 2 3 4 5 6)		// LSHIFT #toggle
 
 		COMBO(L8,&kp B,LBI LBP, 0)				// B
 		COMBO(L9,&kp C,LBI LBM, 0)				// C
-		COMBO(L10,&kp N,LBP LBR, 0)				// N
+		COMBO(L10,&kp BACKSPACE,LBP LBR, 0)			// ** from N to BACKSPACE
 		COMBO(L11,&kp F,LTM LTI, 0)				// F
 		COMBO(L12,&kp G,LTR LTM, 0)				// G
 		COMBO(L13,&kp U,LBR LBM, 0)				// U
@@ -230,9 +230,9 @@
 
 /*  0 = Base
 	.-----------------------------------------------------------.
-	|  R  |  S  |  N  |  I  |           |  I  |  N  |  S  |  R  |
-	|  A  |  O  |  T  |  E  |           |  E  |  T  |  O  |  A  |
-	|     |-----| BKSP| SPC |           | SPC | BKSP|-----|     |
+	|  S  |  T  |  R  |  A  |           |  A  |  R  |  T  |  S  |
+	|  O  |  I  |  N  |  E  |           |  E  |  N  |  I  |  O  |
+	|BKSPC|-----| SPC | SHFT|           | SHFT| SPC |-----|BKSPC|
 	'-----'     '-----------------------------------'     '-----'
 */
 	keymap {
@@ -242,9 +242,9 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&lt CUSTOM S	&kp T       &kp R       &lt HFREQ A    &lt HFREQ A &kp R       &kp T       &lt CUSTOM S
-			&lt EXTRA O		&kp I       &kp SPACE   &lt LFREQ E    &lt LFREQ E &kp SPACE   &kp I       &lt EXTRA O
-			&kp RALT                  	&kp BKSP    &kp LSHIFT     &kp LSHIFT  &kp BKSP                &kp RALT
+			&lt CUSTOM S	&kp T       &kp R       &lt HFREQ A    &lt HFREQ A &kp R      	&kp T       &lt CUSTOM S
+			&lt EXTRA O	&kp I       &kp N	&lt LFREQ E    &lt LFREQ E &kp N  	&kp I       &lt EXTRA O
+			&kp BKSP                    &kp SPACE   &kp LSHIFT     &kp LSHIFT  &kp SPACE    &kp BKSP
 			>;
 		};
 
